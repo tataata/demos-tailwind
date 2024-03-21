@@ -445,7 +445,7 @@ video {
 }
 
 /* body {
-    @apply bg-slate-500 text-white;
+    @apply bg-slate-500;
   } */
 
 *, ::before, ::after {
@@ -604,36 +604,8 @@ video {
   height: 100vh;
 }
 
-.min-h-24 {
-  min-height: 6rem;
-}
-
 .min-h-40 {
   min-height: 10rem;
-}
-
-.gap-6 {
-  gap: 1.5rem;
-}
-
-.bg-lime-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(77 124 15 / var(--tw-bg-opacity));
-}
-
-.bg-cyan-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(207 250 254 / var(--tw-bg-opacity));
-}
-
-.bg-teal-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(19 78 74 / var(--tw-bg-opacity));
-}
-
-.bg-teal-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(20 184 166 / var(--tw-bg-opacity));
 }
 
 .bg-teal-100 {
@@ -641,23 +613,19 @@ video {
   background-color: rgb(204 251 241 / var(--tw-bg-opacity));
 }
 
+.bg-teal-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(20 184 166 / var(--tw-bg-opacity));
+}
+
 .bg-teal-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(15 118 110 / var(--tw-bg-opacity));
 }
 
-.bg-teal-300 {
+.bg-teal-900 {
   --tw-bg-opacity: 1;
-  background-color: rgb(94 234 212 / var(--tw-bg-opacity));
-}
-
-.bg-teal-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(153 246 228 / var(--tw-bg-opacity));
-}
-
-.p-3 {
-  padding: 0.75rem;
+  background-color: rgb(19 78 74 / var(--tw-bg-opacity));
 }
 
 .p-5 {
@@ -669,14 +637,14 @@ video {
   padding-bottom: 1.25rem;
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 .text-teal-950 {
   --tw-text-opacity: 1;
   color: rgb(4 47 46 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 @media (min-width: 640px) {
@@ -703,24 +671,16 @@ video {
     display: flex;
   }
 
-  .md\:min-h-56 {
-    min-height: 14rem;
-  }
-
   .md\:min-h-80 {
     min-height: 20rem;
-  }
-
-  .md\:basis-3\/4 {
-    flex-basis: 75%;
   }
 
   .md\:basis-1\/4 {
     flex-basis: 25%;
   }
 
-  .md\:justify-between {
-    justify-content: space-between;
+  .md\:basis-3\/4 {
+    flex-basis: 75%;
   }
 
   .md\:gap-6 {
