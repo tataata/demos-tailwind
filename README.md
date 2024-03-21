@@ -34,4 +34,8 @@ Check that the Tailwind is loaded in the sourse panel of Webdev tools.
 
 ![Tailwind installed screenshot](/img/tailwind-source.png)
 
-## Step 2. Explore what Taiwind has to offer
+## Step 2. Core concepts
+
+### Utility-first fundamentals
+
+1. Go through the [utility-first fundamentals](https://tailwindcss.com/docs/utility-first) and illustrate the code snippets by copy pasting it into your demo HTML file. Inspect the CSS, read the code togehter, use it as a refresher opportunity.
